@@ -1,0 +1,196 @@
+
+#one {
+    width: 150px;
+    margin-right: 50px;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#two {
+    width: 350px;
+}
+.dropbtn {
+background-color: #01ff0a;
+color: white;
+padding: 16px ;
+font-size: 16px;
+border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;    
+}
+.dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: blue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+.header {
+    display: block;
+    background-color: #01ff0a;
+    margin-bottom: 100px;
+}
+
+.all {
+    background-color: aqua;
+    display: block;
+
+    padding-bottom: 100%;
+}
+img {
+    background-color: rgb(231, 44, 44);
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top: 25px solid rgb(238, 6, 84);
+    border-left: 25px solid rgb(238, 6, 84);
+    border-right: 0px;
+    border-bottom: 0px;
+    
+}
+
+.images:hover .tooltiptext{
+    visibility: visible;
+}
+.images .tooltiptext{
+    visibility: hidden;
+    width: 530px;
+    height: 280px;
+    background-color: blanchedalmond;
+    color: rgb(248, 2, 2);
+    text-align: left;
+    padding: 25px 25px;
+    position: absolute;
+    top: 167px;
+    
+    left: 120px;
+    width: ;
+    z-index: 1;
+}
+.closebig {
+    display: block;
+    width: 580px;
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 15px;
+    
+    
+}
+.close {
+    display: block;
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow:  10px 10px #0581f5;
+    
+}
+.text {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.images {
+    margin-top: 5px;
+    margin-bottom: 65px;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#angelo {
+    background-color: chartreuse;
+    
+}
+#Alma {
+    background-color: blue;
+}
+#tatjana {
+    background-color: #f5f104;
+}
+#eduardo {
+    background-color: blueviolet;
+}
+#saffir {
+    background-color: yellow;
+}
+#ammar {
+    background-color:  rgb(3, 3, 245);
+}
+#kelsang{
+    background-color: yellow;
+}
+#mia {
+    background-color: rgb(0, 255, 0);
+}
+#nabbosa{
+    background-color: #ff0ad6;
+}
+#rosana{
+    background-color: #0aff2b;
+}
+#nikola{
+    background-color: red;
+}
+#tatiana{
+    background-color: #ff0ad6;
+}
+#salem{
+    background-color: #03b309;
+}
+#timothy{
+    background-color: antiquewhite;
+}
+#gabor{
+    background-color: #0408fc;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.love{
+    display: block;
+    width: 200px;
+    height: 30px;
+    box-shadow: 5px 5px  rgb(248, 2, 2)  ;
+    text-align: center;
+    background-color: pink;
+    position: absolute;
+    right: 20px;
+    top: 1300px;
+    padding-top: 5px;
+}
