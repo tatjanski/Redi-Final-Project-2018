@@ -1,22 +1,17 @@
 
-#one {
-    width: 150px;
-    margin-right: 50px;
-
-}
 a {
     text-decoration: none;
     color: white;
 }
-#two {
-    width: 350px;
-}
+
 .dropbtn {
-background-color: #01ff0a;
+    
+background-color:transparent; 
 color: white;
 padding: 16px ;
 font-size: 16px;
 border: none;
+margin-right: 0px;
 }
 .dropdown {
     position: relative;
@@ -44,9 +39,10 @@ border: none;
 .dropdown:hover .dropbtn {
     background-color: red;
 }
-.header {
-    display: block;
-    background-color: #01ff0a;
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: Linear-gradient(to right,#fff202, #fd0202);
     margin-bottom: 100px;
 }
 
@@ -84,12 +80,11 @@ img {
     text-align: left;
     padding: 25px 25px;
     position: absolute;
-    top: 167px;
-    
-    left: 120px;
-    width: ;
+    top: 0px;
+    left: 0px;
     z-index: 1;
 }
+
 .closebig {
     display: block;
     width: 580px;
@@ -133,52 +128,97 @@ img {
 }
 #angelo {
     background-color: chartreuse;
+    position: relative;
+    top: 0px;
+    left: 0px; 
     
 }
 #Alma {
     background-color: blue;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #tatjana {
     background-color: #f5f104;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #eduardo {
     background-color: blueviolet;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #saffir {
     background-color: yellow;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #ammar {
     background-color:  rgb(3, 3, 245);
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #kelsang{
     background-color: yellow;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #mia {
     background-color: rgb(0, 255, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #nabbosa{
     background-color: #ff0ad6;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #rosana{
     background-color: #0aff2b;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #nikola{
     background-color: red;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #tatiana{
     background-color: #ff0ad6;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #salem{
     background-color: #03b309;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 #timothy{
     background-color: antiquewhite;
+    position: relative;
+    top:0;
+    left: 0;
 }
 #gabor{
     background-color: #0408fc;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
-.flex {
+main {
     display: flex;
     flex-wrap: wrap;
 }
@@ -191,6 +231,6 @@ img {
     background-color: pink;
     position: absolute;
     right: 20px;
-    top: 1300px;
+    top: 1300px; 
     padding-top: 5px;
 }
