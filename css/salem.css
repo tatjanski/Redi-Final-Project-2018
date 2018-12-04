@@ -1,0 +1,23 @@
+.salem-profile{
+    background: white;
+    height: 900px;
+    width: 90%;
+    border: 1px black solid;
+    position: absolute;
+    z-index: -100;
+    margin: 49px;
+}
+.background-img{
+    height: 400px;
+    width: 100%;
+    z-index: -50;
+    position: relative;
+}
+.salem-name{
+    width: 162px;
+    padding: 6px;
+    position: fixed;
+    left: 26%;
+    bottom: 313px;
+    color: white;
+}
