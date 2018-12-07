@@ -1,0 +1,129 @@
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	margin-right: 0;
+}
+
+.link-home {
+	background-image: Linear-gradient(to right, #fff202, #ff01ed);
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	background: black;
+	margin-bottom: 100px;
+}
+
+body {
+	background:  url(https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=3640f6095c08077e2f556c2f6fae362f) no-repeat center center fixed; 	
+	background-size: cover;
+	display: block;
+	padding-bottom: 100%;
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+}
+.background1 {
+	width:1100px;
+	height: 950px;
+	position:relative;
+	display:inline-block;
+	right:180px;
+	background-image: url("https://cosmos-images1.imgix.net/file/spina/photo/13650/180119_el_gordo_1.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=835") ;
+	top: 50px;
+	z-index:-10;
+}
+.youtube {
+	display:inline-block;
+	position:relative;
+	left: 125px;
+	top:50px;
+}
+.share {
+	width: 120px;
+	height:  50px;
+	display:inline-block;
+	position:relative ;
+	top:680px;
+	left:520px;
+
+}
+
+.share img {
+	width: 35px ;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	
+
+
+}
+#accordion {
+	width: 200px;
+	height: 120px;
+	position:relative ;
+	display:inline-block;
+	bottom:870px;
+	left: 920px;
+	
+}
+#accordion section p {
+	display:none;
+	text-align:center;
+	color:blue;
+}
+#accordion section a {
+text-align:center;
+color:royalblue;
+text-decoration: none ; 
+}
+#accordion section a:hover {
+	
+	text-decoration:underline;
+}
+#accordion section:target p {
+	display:block ;
+	text-align:center; 
+
+}
