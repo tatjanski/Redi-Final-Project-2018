@@ -85,10 +85,10 @@ body {
 span, a {
 	text-transform: uppercase;
 }
-
+/*
 main a {
 	mix-blend-mode: difference;
-}
+} */
 
 .images .tooltiptext {
 	visibility: hidden;
@@ -299,7 +299,7 @@ main {
 .tile-person .square-back {
 	width: 200px;
 	height: 200px;
-	background: yellow;
+	background: gray;
 	display: block;
 	position: absolute;
 	transition: top .2s, left .2s;
@@ -337,3 +337,7 @@ main {
     color: blue;
 }
 
+.my-container {
+	margin: 30px;
+	background-color: #0581f5;
+}
