@@ -246,7 +246,7 @@ main a {
 }
 
 #gabor {
-	;
+	background-color: #0408fc;
 	position: relative;
 	top: 0px;
 	left: 0px;
@@ -306,51 +306,22 @@ main {
 	top: 0;
 	left: 0;
 }
-.tile-person .blue-back {
-	width: 200px;
-	height: 200px;
-	background: red;
-	display: block;
-	position: absolute;
-	transition: top .2s, left .2s;
-	top: 0;
-	left: 0;
-}
 
-
-.tile-person:hover .square-front{
+.tile-person:hover .square-front {
 	top: -23px;
 	left: -23px;
 }
 
-.tile-person:hover .square-back{
+.tile-person:hover .square-back {
 	top: 5px;
 	left: 5px;
-}
-.tile-person:hover .red-front{
-	top: -23px;
-	left: -23px;
 }
 
-.tile-person:hover .blue-back{
-	top: 5px;
-	left: 5px;
-}
 .tile-person .square-front {
 	width: 160px;
 	height: 160px;
 	display: block;
 	background: hotpink;
-	position: absolute;
-	top: -13px;
-	left: -13px;
-	transition: top .2s, left .2s;
-}
-.tile-person .red-front {
-	width: 160px;
-	height: 160px;
-	display: block;
-	background: blue;
 	position: absolute;
 	top: -13px;
 	left: -13px;
@@ -364,25 +335,5 @@ main {
     text-align: center;
     margin-top: 14px;
     color: blue;
-}
-#rosanna .square-back {
-	width: 200px;
-	height: 200px;
-	background: rgb(75, 75, 228);
-	display: block;
-	position: absolute;
-	transition: top .2s, left .2s;
-	top: 0;
-	left: 0;
-}
-#rosanna .square-front {
-	width: 160px;
-	height: 160px;
-	display: block;
-	background: rgb(228, 87, 141);
-	position: absolute;
-	top: -13px;
-	left: -13px;
-	transition: top .2s, left .2s;
 }
 
