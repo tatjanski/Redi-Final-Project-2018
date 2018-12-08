@@ -342,6 +342,7 @@ main {
 #my-navi {
 	display: flex;
 	padding: 14px;
+	margin-bottom: 50px;
 }
 
 .my-navi-element {
@@ -351,4 +352,58 @@ main {
 .my-navi-element a:hover {
 	background-color: black;
 	border-bottom: groove;
+}
+
+.friends-pic1-3 {
+	width: 300px;
+	height: 200px;
+}
+
+#friends-pic2 {
+	width: 170px;
+	height: 200px;
+}
+
+.quote-pic {
+	width: 200px;
+	height: 200px;
+	margin-left: 35px;
+}
+
+.bracelet-pic {
+	width: 300px;
+	height: 200px;
+}
+
+#cat-pic1 {
+	width: 350px;
+	height: 200px;
+}
+
+#cat-pic2 {
+	width: 170px;
+	height: 200px;
+}
+
+#cat-pic3 {
+	width: 200px;
+	height: 200px;
+}
+
+#plant-pic1 {
+	width: 170px;
+	height: 200px;
+}
+
+.plant-pic2-3 {
+	width: 300px;
+	height: 200px;
+}
+
+p {
+	color: white;
+}
+
+#fav-quote {
+	text-align: center;
 }
