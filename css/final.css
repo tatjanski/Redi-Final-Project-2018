@@ -86,9 +86,7 @@ span, a {
 	text-transform: uppercase;
 }
 
-main a {
-	mix-blend-mode: difference;
-}
+
 
 .images .tooltiptext {
 	visibility: hidden;
@@ -337,3 +335,10 @@ main {
     color: blue;
 }
 
+#salem-H.tile-person .square-front{
+	background: blue;
+}
+
+#salem-H.tile-person  .square-back{
+  background-color: lightblue;
+}
