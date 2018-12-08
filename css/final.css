@@ -62,7 +62,6 @@ header {
 body {
 	background-color: aqua;
 	display: block;
-	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
 }
