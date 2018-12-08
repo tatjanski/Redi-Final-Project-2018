@@ -407,3 +407,13 @@ p {
 #fav-quote {
 	text-align: center;
 }
+
+#paint-pic1 {
+	width: 170px;
+	height: 200px;
+}
+
+#paint-pic2 {
+	width: 300px;
+	height: 200px;
+}
