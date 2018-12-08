@@ -56,38 +56,19 @@ header {
 }
 
 body {
-	background-color: aqua;
 	display: block;
 	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
+	background-image: url(https://images3.alphacoders.com/853/thumb-1920-85305.jpg);
 }
-
-/* img {
-	background-color: rgb(231, 44, 44);
-	width: 160px;
-	height: 160px;
-	display: block;
-	margin-bottom: 5px;
-	margin-right: 50px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-top: 25px solid rgb(238, 6, 84);
-	border-left: 25px solid rgb(238, 6, 84);
-	border-right: 0px;
-	border-bottom: 0px;
-} */
-
-/* .images:hover .tooltiptext {
-	visibility: visible;
-} */
-
 span, a {
 	text-transform: uppercase;
 }
 
 main a {
-	mix-blend-mode: difference;
+	margin-top: -90px;
+	
 }
 
 .images .tooltiptext {
@@ -266,7 +247,7 @@ main {
 	background-color: pink;
 	position: absolute;
 	right: 20px;
-	top: 1300px;
+	top: initial;
 	padding-top: 5px;
 }
 
@@ -294,12 +275,14 @@ main {
 	display: block;
 	position: relative;
 	margin: 100px;
+	margin-left: 56px;
+	margin-bottom: 50px;
 }
 
 .tile-person .square-back {
 	width: 200px;
 	height: 200px;
-	background: yellow;
+	background: rgb(75, 75, 228);
 	display: block;
 	position: absolute;
 	transition: top .2s, left .2s;
@@ -321,7 +304,7 @@ main {
 	width: 160px;
 	height: 160px;
 	display: block;
-	background: hotpink;
+	background: rgb(228, 87, 141);
 	position: absolute;
 	top: -13px;
 	left: -13px;
@@ -334,6 +317,112 @@ main {
     display: block;
     text-align: center;
     margin-top: 14px;
-    color: blue;
+    color:black;
 }
+
+.welcome img {width: 900px;
+    height: 125px;
+    margin:auto;}
+
+.hey { color: #aabfd3;
+text-align: center;
+margin-left: 27px;
+}
+.quote {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-image: url(http://wallpapersexpert.com/data/out/1/3269633-beach-wallpapers.jpg);
+	animation-name: example;
+	animation-duration: 4s;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes example {
+	0%   {background-color:rgb(98, 98, 231); left:0px; top:0px;}
+	25%  {background-color:rgb(84, 137, 206); left:200px; top:0px;}
+	50%  {background-color:rgb(157, 157, 223); left:200px; top:200px;}
+	75%  {background-color:rgb(116, 102, 236); left:0px; top:200px;}
+	100% {background-color:rgb(62, 90, 109); left:0px; top:0px;}
+  }
+  .quote-img {
+	  margin-top: 70%;
+  }
+
+
+
+
+.video {width: 600px;
+    height: 400;
+}
+.map {
+	width: 800px;;
+   	height: 600px;
+  	 margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}
+.map h3 { text-align: center;}
+.song { 
+	text-align: center;
+	position: relative;
+	margin-bottom: 15%;
+}
+main {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: -90px;
+}
+.first-column {width: 20%;
+	height: 100%;}
+.container {
+	width: 70%;
+	height: max-content;
+	text-align: center;
+	display: inline;
+	background:
+	linear-gradient(
+		rgb(221, 191, 126),
+		transparent
+	),
+	linear-gradient(
+		-45deg,
+		rgb(216, 175, 216),
+		transparent
+	),
+	linear-gradient(
+		45deg,
+		rgb(196, 196, 116),
+		transparent
+	);
+background-blend-mode: multiply;
+}
+video {
+	margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 20%;
+    margin-bottom: 20%;\
+}
+.song h2:hover {
+	-webkit-animation-duration: 1s;
+            -webkit-animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+
+
+
+
+
+
 
