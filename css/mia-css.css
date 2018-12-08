@@ -52,11 +52,12 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	background: black;
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 }
 
 body {
-	background-color: aqua;
+	background: Linear-gradient(to top, #793C06,  #C87002, #1F1603);
+	background-repeat:repeat-x;
 	display: block;
 	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
@@ -252,6 +253,7 @@ main a {
 	left: 0px;
 }
 
+
 main {
 	display: flex;
 	flex-wrap: wrap;
@@ -266,7 +268,7 @@ main {
 	background-color: pink;
 	position: absolute;
 	right: 20px;
-	top: 1300px;
+	top: 1500px;
 	padding-top: 5px;
 }
 
@@ -293,7 +295,7 @@ main {
 	height: 200px;
 	display: block;
 	position: relative;
-	margin: 100px;
+	margin: 50px;
 }
 
 .tile-person .square-back {
@@ -334,10 +336,19 @@ main {
     display: block;
     text-align: center;
     margin-top: 14px;
-    color: blue;
+    color: white;
 }
 
-.my-container {
-	margin: 30px;
-	background-color: #0581f5;
+#my-navi {
+	display: flex;
+	padding: 14px;
+}
+
+.my-navi-element {
+	margin-left: 50px;
+}
+
+.my-navi-element a:hover {
+	background-color: black;
+	border-bottom: groove;
 }
