@@ -62,7 +62,6 @@ header {
 body {
 	background-color: aqua;
 	display: block;
-	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
 }
@@ -269,7 +268,7 @@ main {
 	background-color: pink;
 	position: absolute;
 	right: 20px;
-	top: 1300px;
+	bottom: 10px;
 	padding-top: 5px;
 }
 
@@ -289,6 +288,7 @@ main {
 	position: relative;
 	top: 10px;
 	left: 10px;
+	transition: transform .2s;
 }
 
 .tile-person {
@@ -330,6 +330,11 @@ main {
 	top: 5px;
 	left: 5px;
 }
+
+.tile-person:hover .image-person {
+	transform: rotateZ(-10deg);
+}
+
 .tile-person:hover .red-front{
 	top: -23px;
 	left: -23px;
@@ -339,6 +344,9 @@ main {
 	top: 5px;
 	left: 5px;
 }
+
+
+
 .tile-person .square-front {
 	width: 160px;
 	height: 160px;
