@@ -10,6 +10,8 @@ a {
 	font-size: 16px;
 	border: none;
 	margin-right: 0;
+	transition: background-color .2s;
+	cursor: pointer;
 }
 
 .link-home {
@@ -34,10 +36,12 @@ a {
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
+	transition: background-color .2s, color .2s;
 }
 
 .dropdown-content a:hover {
 	background-color: blue;
+	color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -52,7 +56,7 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	background: black;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 body {
@@ -247,6 +251,9 @@ span, a {
 	top: 0px;
 	left: 0px;
 }
+#gabor .name{
+	color: yellow;
+}
 
 main {
 	display: flex;
@@ -289,7 +296,7 @@ main {
 	height: 200px;
 	display: block;
 	position: relative;
-	margin: 100px;
+	margin: 50px;
 }
 
 .tile-person .square-back {
@@ -352,6 +359,14 @@ main {
 	left: -13px;
 	transition: top .2s, left .2s;
 }
+/*.gname{
+	position: relative;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    color: yellow;
+}*/
 
 .name {
 	position: relative;
@@ -362,23 +377,9 @@ main {
     color: blue;
 }
 #rosanna .square-back {
-	width: 200px;
-	height: 200px;
 	background: rgb(75, 75, 228);
-	display: block;
-	position: absolute;
-	transition: top .2s, left .2s;
-	top: 0;
-	left: 0;
 }
 #rosanna .square-front {
-	width: 160px;
-	height: 160px;
-	display: block;
 	background: rgb(228, 87, 141);
-	position: absolute;
-	top: -13px;
-	left: -13px;
-	transition: top .2s, left .2s;
 }
 
