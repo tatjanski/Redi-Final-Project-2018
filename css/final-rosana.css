@@ -326,7 +326,30 @@ main {
 
 .hey { color: #aabfd3;
 text-align: center;
-margin-left: 27px;}
+margin-left: 27px;
+}
+.quote {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background-image: url(http://wallpapersexpert.com/data/out/1/3269633-beach-wallpapers.jpg);
+	animation-name: example;
+	animation-duration: 4s;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes example {
+	0%   {background-color:rgb(98, 98, 231); left:0px; top:0px;}
+	25%  {background-color:rgb(84, 137, 206); left:200px; top:0px;}
+	50%  {background-color:rgb(157, 157, 223); left:200px; top:200px;}
+	75%  {background-color:rgb(116, 102, 236); left:0px; top:200px;}
+	100% {background-color:rgb(62, 90, 109); left:0px; top:0px;}
+  }
+  .quote-img {
+	  margin-top: 70%;
+  }
+
+
 
 
 .video {width: 600px;
@@ -344,6 +367,8 @@ margin-left: 27px;}
 .map h3 { text-align: center;}
 .song { 
 	text-align: center;
+	position: relative;
+	margin-bottom: 15%;
 }
 main {
 	display: flex;
@@ -380,6 +405,21 @@ video {
     margin-top: 20%;
     margin-bottom: 20%;\
 }
+.song h2:hover {
+	-webkit-animation-duration: 1s;
+            -webkit-animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+
 
 
 
