@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link href="css/final.css" rel="stylesheet">
+    		<link href="css/gabor.css" rel="stylesheet">
+		  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        
+    </head>
+
+    <body>
+         <div class="header">
+                <div id="one" class="redilink">
+                    <button class="dropbtn">
+                         <a href="https://www.redi-school.org/redimunich" target="blank">
+                             ReDI SCHOOL
+                         </a>
+                                 </button>
+                         </div>
+
+                         <div id="two" class="dropdown">
+                                         <button class="dropbtn">
+                                            <a href="https://www.redi-school.org/about-us" target="blank">
+                                                 THe BEST PLACE TO LERN HTML & CSS
+                                                   </a>
+                                            </button>
+                                             </div>
+
+                                                <div class="dropdown">
+                                                 <button class="dropbtn">ABOUT</button>
+                                                 </div>
+             
+             
+                                <div class="dropdown">
+                                   <button class="dropbtn">STUDENTS</button>
+                                         <div class="dropdown-content">
+                                           <a href="#">NIKOLA</a>
+                                              <a href="#">TATIANA</a>
+                                              <a href="#">TIMOTHY</a>
+                                             <a href="#">KELSANG</a>
+                                             <a href="#">MIA</a>
+                                              <a href="#">ROSANA</a>
+                                                 <a href="#">SALEM</a>
+                                                 <a href="#">NABBOSA</a>
+                                                 <a href="#">AMMAR</a>
+                                                  <a href="#">GABOR</a>
+                            
+                                                 </div>
+                                                    </div>
+             
+             
+                                                  <div class="dropdown">
+                                                        <button class="dropbtn">TEACHERS</button>
+                                                <div class="dropdown-content">
+                                 <a href="#">ALMA</a>
+                                 <a href="#">TTJANA</a>
+                                 <a href="#">ANGELO</a>
+                                    <a href="#">EDUARDO</a>
+                                 <a href="#">SAFFIR</a>
+                            </div>
+                    </div>
+
+    <nav>
+                   
+
+                    <div class="love">made with all our ♥</div>
+                 </div>
+                    <div id="gabor" class="images">
+                             
+                             <div class="text">
+                                <img class="t "src="img/Gabor_200x200.jpg">
+                                <a href="#" target="blank">GABOR</a>
+                             </div> 
+                             </div>
+                             <div class="bacground"> 
+                                <div class="surf">
+                                 <img src="http://nicaraguasurfresort.com/wp-content/uploads/2016/07/IMG_6030-1000x300.jpg" >
+                                </div>
+                                <button class="close"> 
+                                   <a href="index.html">CLOSE</a>
+                                 </button>
+                                 <div class="outblue">
+                                 <div class="slides">
+                                 <h3 class="w3-center">MY CLASS</h3>
+                                 <div class="text" style="max-width:400px">
+                                   <img class="mySlides" src="img/Gabor_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Alma_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Ammar_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Kelsang_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Mia_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Nikola_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Rosana_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Salem_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Tatiana_200x200.jpg" style="width:160px; height: 160px;">
+                                   <img class="mySlides" src="img/Timothy_200x200.jpg" style="width:160px; height: 160px;"> 
+                                 </div>
+                                 <script>
+                                 var slideIndex = 0;
+                                 carousel();
+                                 
+                                 function carousel() {
+                                     var i;
+                                     var x = document.getElementsByClassName("mySlides");
+                                     for (i = 0; i < x.length; i++) {
+                                       x[i].style.display = "none"; 
+                                     }
+                                     slideIndex++;
+                                     if (slideIndex > x.length) {slideIndex = 1} 
+                                     x[slideIndex-1].style.display = "block"; 
+                                     setTimeout(carousel, 2000); 
+                                 }
+                                 </script>
+                                 </div>
+                                 </div>
+                                 <button class="accordion">ABOUT ME</button>
+                                 <div class="panel">
+                                   <p>I love to Surfing, Playing footbll with my son, listen to music and reading book </p>
+                                 </div>
+                                 <button class="accordion">MY CLASS</button>
+                                 <div class="panel">
+                                   <p>My classmates are very cool and the Teachers too</p>
+                                 </div>
+                                 <button class="accordion">FAV:MUSICS</button>
+                                 <div class="panel">
+                                   <p>Michael<a href="https://www.youtube.com/watch?v=nOubjLM9Cbc" target="_blank">Tietle:Cold Little Heart</a> Kiwanuka</p>
+                                 </div>
+                                 
+                                 <script>
+                                 var acc = document.getElementsByClassName("accordion");
+                                 var i;
+                                 
+                                 for (i = 0; i < acc.length; i++) {
+                                     acc[i].addEventListener("click", function() {
+                                         this.classList.toggle("active");
+                                         var panel = this.nextElementSibling;
+                                         if (panel.style.display === "block") {
+                                             panel.style.display = "none";
+                                         } else {
+                                             panel.style.display = "block";
+                                         }
+                                     });
+                                 }
+                                 </script>     
+                            </div>
+                             </div>
+                             <div class="comments">
+                             <form action="/action_page.php" id="usrform">
+                              Name: <input type="text" name="usrname">
+                              <input type="submit">
+                            </form>
+                            <br>
+                            <textarea rows="10" cols="54" name="comment" form="usrform">
+                            Enter text here...</textarea> 
+                             </div>
+                           </nav>
+                         </body> 
+    </html>

@@ -1,3 +1,4 @@
+
 a {
 	text-decoration: none;
 	color: white;
@@ -10,9 +11,8 @@ a {
 	font-size: 16px;
 	border: none;
 	margin-right: 0;
-	transition: background-color .2s;
-	cursor: pointer;
 }
+
 
 .link-home {
 	background-image: Linear-gradient(to right, #fff202, #ff01ed);
@@ -36,12 +36,10 @@ a {
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	transition: background-color .2s, color .2s;
 }
 
 .dropdown-content a:hover {
 	background-color: blue;
-	color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -56,15 +54,86 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	background: black;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 body {
-	background-color: aqua;
+	background:  url(https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=3640f6095c08077e2f556c2f6fae362f) no-repeat center center fixed; 	
+	background-size: cover;
 	display: block;
+	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
 }
+.background1 {
+	width:1100px;
+	height: 950px;
+	position:relative;
+	display:inline-block;
+	right:180px;
+	background-image: url("https://cosmos-images1.imgix.net/file/spina/photo/13650/180119_el_gordo_1.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=835") ;
+	top: 50px;
+ 
+}
+.youtube {
+	display:inline-block;
+	position:relative;
+	left: 125px;
+	top:50px;
+}
+.share {
+	width: 120px;
+	height:  50px;
+	display:inline-block;
+	position:relative ;
+	top:620px;
+	left:520px;
+
+}
+
+.share img {
+	width: 35px ;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	
+
+
+}
+#accordion {
+	width: 200px;
+	height: 120px;
+	position:relative ;
+	display:inline-block;
+	bottom:870px;
+	left: 920px;
+	
+}
+#accordion section p {
+	display:none;
+	text-align:center;
+	color:snow;
+}
+#accordion section a {
+text-align:center;
+color:snow;
+text-decoration: none ; 
+}
+#accordion section a:hover {
+	
+	text-decoration:underline;
+}
+#accordion section:target p {
+	display:block ;
+	text-align:center; 
+
+}
+.slideshow {
+	width:350px; height:300px; overflow:hidden; position:relative;
+}
+.slideshow .img 
+	{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 /* img {
 	background-color: rgb(231, 44, 44);
@@ -89,6 +158,7 @@ span, a {
 	text-transform: uppercase;
 }
 
+
 .images .tooltiptext {
 	visibility: hidden;
 	width: 530px;
@@ -100,7 +170,7 @@ span, a {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	z-index: 1;
+	z-index: 3;
 }
 
 .closebig {
@@ -144,7 +214,6 @@ span, a {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	border-radius: 12px;
 }
 
 #angelo {
@@ -246,13 +315,10 @@ span, a {
 }
 
 #gabor {
-	;
+	background-color: #0408fc;
 	position: relative;
 	top: 0px;
 	left: 0px;
-}
-#gabor .name{
-	color: yellow;
 }
 
 main {
@@ -269,7 +335,7 @@ main {
 	background-color: pink;
 	position: absolute;
 	right: 20px;
-	bottom: 10px;
+	top: 1300px;
 	padding-top: 5px;
 }
 
@@ -289,7 +355,7 @@ main {
 	position: relative;
 	top: 10px;
 	left: 10px;
-	transition: transform .2s;
+	z-index:10;
 }
 
 .tile-person {
@@ -297,7 +363,7 @@ main {
 	height: 200px;
 	display: block;
 	position: relative;
-	margin: 50px;
+	margin: 100px;
 }
 
 .tile-person .square-back {
@@ -309,44 +375,18 @@ main {
 	transition: top .2s, left .2s;
 	top: 0;
 	left: 0;
-}
-.tile-person .blue-back {
-	width: 200px;
-	height: 200px;
-	background: red;
-	display: block;
-	position: absolute;
-	transition: top .2s, left .2s;
-	top: 0;
-	left: 0;
+	z-index:10;
 }
 
-
-.tile-person:hover .square-front{
+.tile-person:hover .square-front {
 	top: -23px;
 	left: -23px;
 }
 
-.tile-person:hover .square-back{
+.tile-person:hover .square-back {
 	top: 5px;
 	left: 5px;
 }
-
-.tile-person:hover .image-person {
-	transform: rotateZ(-10deg);
-}
-
-.tile-person:hover .red-front{
-	top: -23px;
-	left: -23px;
-}
-
-.tile-person:hover .blue-back{
-	top: 5px;
-	left: 5px;
-}
-
-
 
 .tile-person .square-front {
 	width: 160px;
@@ -357,32 +397,95 @@ main {
 	top: -13px;
 	left: -13px;
 	transition: top .2s, left .2s;
+	z-index:10;
 }
-.tile-person .red-front {
+
+.image-person1 {
+	width: 160px;
+	height: 160px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.tile-person1 {
+	width: 200px;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 100px;
+}
+
+.tile-person1 .square-back1 {
+	width: 200px;
+	height: 200px;
+	background: white;
+	display: block;
+	position: absolute;
+	transition: top .2s, left .2s;
+	top: 0;
+	left: 0;
+}
+
+.tile-person1:hover .square-front1 {
+	top: -23px;
+	left: -23px;
+}
+
+.tile-person1:hover .square-back1 {
+	top: 5px;
+	left: 5px;
+}
+
+.tile-person1 .square-front1 {
 	width: 160px;
 	height: 160px;
 	display: block;
-	background: blue;
+	background:black;
 	position: absolute;
 	top: -13px;
 	left: -13px;
 	transition: top .2s, left .2s;
 }
-
-
 .name {
 	position: relative;
     margin: 0 auto;
     display: block;
     text-align: center;
     margin-top: 14px;
-    color: blue;
+	color: blue;
+	z-index:10;
 }
-#rosanna .square-back {
-	background: rgb(75, 75, 228);
-}
-#rosanna .square-front {
-	background: rgb(228, 87, 141);
+.map {
+	display: inline-block;
+	position:relative;
+	bottom:350px;
+	left:370px;
+
 }
 
 
+.slideshow { 
+	border: 2px solid snow;
+	width:350px; 
+	height:262px; 
+	overflow:hidden; 
+	position:relative;
+	bottom:350px;
+	left: 20px;
+	display:block;
+}
+.slideshow img {
+	
+	position:absolute; 
+	animation:fling-minislide 35s infinite; 
+	opacity:0; 
+	width: 100%; 
+	height: auto;
+
+}
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
