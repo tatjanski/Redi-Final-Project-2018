@@ -1,3 +1,4 @@
+
 a {
 	text-decoration: none;
 	color: white;
@@ -11,6 +12,7 @@ a {
 	border: none;
 	margin-right: 0;
 }
+
 
 .link-home {
 	background-image: Linear-gradient(to right, #fff202, #ff01ed);
@@ -71,7 +73,7 @@ body {
 	right:180px;
 	background-image: url("https://cosmos-images1.imgix.net/file/spina/photo/13650/180119_el_gordo_1.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=835") ;
 	top: 50px;
-	z-index:-10;
+ 
 }
 .youtube {
 	display:inline-block;
@@ -127,3 +129,360 @@ text-decoration: none ;
 	text-align:center; 
 
 }
+.slideshow {
+	width:350px; height:300px; overflow:hidden; position:relative;
+}
+.slideshow .img 
+	{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+/* img {
+	background-color: rgb(231, 44, 44);
+	width: 160px;
+	height: 160px;
+	display: block;
+	margin-bottom: 5px;
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-top: 25px solid rgb(238, 6, 84);
+	border-left: 25px solid rgb(238, 6, 84);
+	border-right: 0px;
+	border-bottom: 0px;
+} */
+
+/* .images:hover .tooltiptext {
+	visibility: visible;
+} */
+
+span, a {
+	text-transform: uppercase;
+}
+
+
+.images .tooltiptext {
+	visibility: hidden;
+	width: 530px;
+	height: 280px;
+	background-color: blanchedalmond;
+	color: rgb(248, 2, 2);
+	text-align: left;
+	padding: 25px 25px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+
+.closebig {
+	display: block;
+	width: 580px;
+	height: 75px;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 15px;
+
+}
+
+.close {
+	display: block;
+	width: 130px;
+	height: 30px;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	box-shadow: 10px 10px #0581f5;
+}
+
+.text {
+	text-align: center;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.images {
+	margin-top: 5px;
+	margin-bottom: 65px;
+	margin-left: 100px;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#angelo {
+	background-color: chartreuse;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#Alma {
+	background-color: blue;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#tatjana {
+	background-color: #f5f104;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#eduardo {
+	background-color: blueviolet;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#saffir {
+	background-color: yellow;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#ammar {
+	background-color: rgb(3, 3, 245);
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#kelsang {
+	background-color: yellow;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#mia {
+	background-color: rgb(0, 255, 0);
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#nabbosa {
+	background-color: #ff0ad6;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#rosana {
+	background-color: #0aff2b;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#nikola {
+	background-color: red;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#tatiana {
+	background-color: #ff0ad6;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#salem {
+	background-color: #03b309;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#timothy {
+	background-color: antiquewhite;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#gabor {
+	background-color: #0408fc;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.love {
+	display: block;
+	width: 200px;
+	height: 30px;
+	box-shadow: 5px 5px rgb(248, 2, 2);
+	text-align: center;
+	background-color: pink;
+	position: absolute;
+	right: 20px;
+	top: 1300px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.image-person {
+	width: 160px;
+	height: 160px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index:10;
+}
+
+.tile-person {
+	width: 200px;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 100px;
+}
+
+.tile-person .square-back {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	display: block;
+	position: absolute;
+	transition: top .2s, left .2s;
+	top: 0;
+	left: 0;
+	z-index:10;
+}
+
+.tile-person:hover .square-front {
+	top: -23px;
+	left: -23px;
+}
+
+.tile-person:hover .square-back {
+	top: 5px;
+	left: 5px;
+}
+
+.tile-person .square-front {
+	width: 160px;
+	height: 160px;
+	display: block;
+	background: hotpink;
+	position: absolute;
+	top: -13px;
+	left: -13px;
+	transition: top .2s, left .2s;
+	z-index:10;
+}
+
+.image-person1 {
+	width: 160px;
+	height: 160px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.tile-person1 {
+	width: 200px;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin: 100px;
+}
+
+.tile-person1 .square-back1 {
+	width: 200px;
+	height: 200px;
+	background: white;
+	display: block;
+	position: absolute;
+	transition: top .2s, left .2s;
+	top: 0;
+	left: 0;
+}
+
+.tile-person1:hover .square-front1 {
+	top: -23px;
+	left: -23px;
+}
+
+.tile-person1:hover .square-back1 {
+	top: 5px;
+	left: 5px;
+}
+
+.tile-person1 .square-front1 {
+	width: 160px;
+	height: 160px;
+	display: block;
+	background:black;
+	position: absolute;
+	top: -13px;
+	left: -13px;
+	transition: top .2s, left .2s;
+}
+.name {
+	position: relative;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+	color: blue;
+	z-index:10;
+}
+.map {
+	display: inline-block;
+	position:relative;
+	bottom:350px;
+	left:370px;
+
+}
+
+
+.slideshow {
+	width:350px; 
+	height:300px; 
+	overflow:hidden; 
+	position:relative;
+	bottom:350px;
+	left: 25px;
+}
+.slideshow img {
+	position:absolute; 
+	animation:fling-minislide 35s infinite; 
+	opacity:0; 
+	width: 100%; 
+	height: auto;
+
+}
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
