@@ -288,6 +288,7 @@ main {
 	position: relative;
 	top: 10px;
 	left: 10px;
+	transition: transform .2s;
 }
 
 .tile-person {
@@ -329,6 +330,11 @@ main {
 	top: 5px;
 	left: 5px;
 }
+
+.tile-person:hover .image-person {
+	transform: rotateZ(-10deg);
+}
+
 .tile-person:hover .red-front{
 	top: -23px;
 	left: -23px;
@@ -338,6 +344,9 @@ main {
 	top: 5px;
 	left: 5px;
 }
+
+
+
 .tile-person .square-front {
 	width: 160px;
 	height: 160px;
