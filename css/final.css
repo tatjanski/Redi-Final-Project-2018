@@ -356,6 +356,14 @@ main {
 	left: -13px;
 	transition: top .2s, left .2s;
 }
+.gname{
+	position: relative;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    color: yellow;
+}
 
 .name {
 	position: relative;
