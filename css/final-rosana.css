@@ -60,16 +60,15 @@ body {
 	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
-	box-shadow: inset 18.13vw 0px 0px black, inset 89.66vw 0px 0px cyan, inset 130.99vw 0px 0px black;
-	
+	background-image: Linear-gradient(to bottom, black, rgb(61, 21, 241));
 }
 span, a {
 	text-transform: uppercase;
 }
 
 main a {
-	mix-blend-mode: difference;
 	margin-top: -90px;
+	
 }
 
 .images .tooltiptext {
@@ -323,32 +322,51 @@ main {
 
 .welcome img {width: 941px;
     height: 125px;
-    margin-left: 30px;}
+    margin:auto;}
 
 .hey { color: #0581f5;
 text-align: center;
 margin-left: 27px;}
 
-main { margin-top: -80px;}
 
 .video {width: 600px;
     height: 400;
-    margin-left: 250px;
-	margin-right: 250px;
-	margin-top: -100px;
 }
 .map {
 	width: 800px;;
-   height: 600px;
-   margin-left: 450px;
-   overflow: hidden;
-   margin-top: -260px;
+   	height: 600px;
+  	 margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
 }
 .map h3 { text-align: center;}
-.song {    margin-left: 580px;
-margin-top: 20px;
-text-align: center;
+.song { 
+	text-align: center;
 }
+main {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: -90px;
+}
+.first-column {width: 20%;
+	height: 100%;}
+.container {width: 70%;
+			height: max-content;
+	background-image: url(https://i.ytimg.com/vi/BWxMuQre3R8/maxresdefault.jpg);
+	text-align: center;
+	display: inline;
+}
+video {
+	margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 20%;
+    margin-bottom: 20%;\
+}
+
+
+
 
 
 
