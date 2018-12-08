@@ -60,7 +60,7 @@ body {
 	padding-bottom: 100%;
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
-	background-image: Linear-gradient(to bottom, black, rgb(61, 21, 241));
+	background-image: url(https://images3.alphacoders.com/853/thumb-1920-85305.jpg);
 }
 span, a {
 	text-transform: uppercase;
@@ -324,7 +324,7 @@ main {
     height: 125px;
     margin:auto;}
 
-.hey { color: #0581f5;
+.hey { color: #aabfd3;
 text-align: center;
 margin-left: 27px;}
 
@@ -352,11 +352,27 @@ main {
 }
 .first-column {width: 20%;
 	height: 100%;}
-.container {width: 70%;
-			height: max-content;
-	background-image: url(https://i.ytimg.com/vi/BWxMuQre3R8/maxresdefault.jpg);
+.container {
+	width: 70%;
+	height: max-content;
 	text-align: center;
 	display: inline;
+	background:
+	linear-gradient(
+		rgb(221, 191, 126),
+		transparent
+	),
+	linear-gradient(
+		-45deg,
+		rgb(216, 175, 216),
+		transparent
+	),
+	linear-gradient(
+		45deg,
+		rgb(196, 196, 116),
+		transparent
+	);
+background-blend-mode: multiply;
 }
 video {
 	margin-left: 38%;
