@@ -3,8 +3,28 @@ background-color: aqua;
 }
 
 
-#picture {	height: 233px;
-	width: 212px;
-	align-content: center;
-	}
+#picture {
+	text-align: center;
+}
+
+.timothy { 
+	width: 200px;
+	height:200px;
+
+}
+.tope{
+	width: 300px;
 	
+}
+.wale{
+	width: 300px;
+}
+.about-me{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.container {
+	background: white;
+}

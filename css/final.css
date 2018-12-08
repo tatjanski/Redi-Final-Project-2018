@@ -86,10 +86,6 @@ span, a {
 	text-transform: uppercase;
 }
 
-main a {
-	mix-blend-mode: difference;
-}
-
 .images .tooltiptext {
 	visibility: hidden;
 	width: 530px;
