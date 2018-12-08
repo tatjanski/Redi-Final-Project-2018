@@ -247,6 +247,9 @@ span, a {
 	top: 0px;
 	left: 0px;
 }
+#gabor .name{
+	color: yellow;
+}
 
 main {
 	display: flex;
@@ -352,14 +355,14 @@ main {
 	left: -13px;
 	transition: top .2s, left .2s;
 }
-.gname{
+/*.gname{
 	position: relative;
     margin: 0 auto;
     display: block;
     text-align: center;
     margin-top: 14px;
     color: yellow;
-}
+}*/
 
 .name {
 	position: relative;
@@ -370,23 +373,9 @@ main {
     color: blue;
 }
 #rosanna .square-back {
-	width: 200px;
-	height: 200px;
 	background: rgb(75, 75, 228);
-	display: block;
-	position: absolute;
-	transition: top .2s, left .2s;
-	top: 0;
-	left: 0;
 }
 #rosanna .square-front {
-	width: 160px;
-	height: 160px;
-	display: block;
 	background: rgb(228, 87, 141);
-	position: absolute;
-	top: -13px;
-	left: -13px;
-	transition: top .2s, left .2s;
 }
 
