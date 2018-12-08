@@ -1,5 +1,6 @@
 .box{
-background-color: aqua;
+	background-color: chartreuse;
+padding: 10px;
 }
 
 
@@ -10,6 +11,8 @@ background-color: aqua;
 .timothy { 
 	width: 200px;
 	height:200px;
+	margin-top: 50px
+
 
 }
 .tope{
@@ -19,12 +22,25 @@ background-color: aqua;
 .wale{
 	width: 300px;
 }
-.about-me{
+.about-me{ 
+	background-color: wheat;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: italic;
 	font-size: 20px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	padding: 10px;
 }
 
-.container {
-	background: white;
+
+	
+
+body {
+background-image: url(../img/ogundele.jpg)
+}
+
+
+.welcome img{
+	width: 1200px;
+	height: 200px;
 }
