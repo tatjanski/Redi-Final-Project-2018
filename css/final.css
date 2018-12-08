@@ -145,6 +145,7 @@ main a {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
+	border-radius: 12px;
 }
 
 #angelo {
@@ -336,4 +337,5 @@ main {
     margin-top: 14px;
     color: blue;
 }
+
 
