@@ -3,10 +3,9 @@ background-color: aqua;
 }
 
 
-#picture {	height: 233px;
-	width: 212px;
-	align-content: center;
-	}
+#picture {
+	text-align: center;
+}
 
 .timothy { 
 	width: 200px;
@@ -24,4 +23,8 @@ background-color: aqua;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: italic;
 	font-size: 20px;
+}
+
+.container {
+	background: white;
 }
