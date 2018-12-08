@@ -53,10 +53,10 @@ margin-right: 0px;
 }
 
 body {
-    background-image: url(https://cabrinha.co.za/wp-content/uploads/2015/02/Surfboard-Rental-Cape-Town.jpg);
+    background-image: url(https://media.giphy.com/media/5sLD6OgdZCBa0/source.gif);
     display: block;
     margin: 0;
-    padding-bottom: 100%;
+    ;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -204,6 +204,7 @@ input{
     margin-top: 10px;
 }
 .accordion {
+    display: block;
     margin-top: 110px;
     margin-left: 25px;
     background-color: rgb(7, 231, 247);
@@ -228,4 +229,5 @@ input{
     background-color: white;
     overflow: hidden;
     width:200px;
+    position:absolute;
 }
