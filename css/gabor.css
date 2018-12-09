@@ -116,7 +116,7 @@ nav {
     background-color: #01FFC6;
     position: absolute;
     left: 20px;
-    top: 800px;
+    top: 750px;
     padding-top: 5px;
 }
 .bacground{
@@ -249,4 +249,7 @@ input{
 }
 .thanks:hover {
     background-image: Linear-gradient(to right,#fff202, #ff01ed);
+}
+.favm{
+    color: #01FFC6;
 }
