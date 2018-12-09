@@ -205,11 +205,11 @@ input{
 }
 .accordion {
     display: block;
-    margin-top: 110px;
-    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 155px;
     margin-bottom: 0;
     background-color: rgb(7, 231, 247);
-    color: #444;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 300px;
@@ -229,8 +229,8 @@ input{
     display: none;
     background-color: white;
     overflow: hidden;
-    width:300px;
-    margin-left: 25px;
+    width:264px;
+    margin-left: 155px;
     margin-bottom: 0;
     margin-top: 0;
     
