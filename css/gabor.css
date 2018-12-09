@@ -123,6 +123,7 @@ nav {
     display: block;
     width: 1000px;
     height: 800px;
+    
     background-image: url(https://images.cdn3.stockunlimited.net/preview1300/galaxy-background-design_2001741.jpg);
     background-repeat: no-repeat;
     position: absolute;
@@ -232,6 +233,20 @@ input{
     width:264px;
     margin-left: 155px;
     margin-bottom: 0;
-    margin-top: 0;
-    
+    margin-top: 0;    
+}
+.thanks{
+    display: block;
+    width: 400px;
+    height: 200;
+    background-image: url(http://ingstadmedia.com/trfradio/wp-content/uploads/sites/3/2018/02/1.jpg);
+    position: absolute;
+    right: 270px;
+    z-index: 100;
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+}
+.thanks:hover {
+    background-image: Linear-gradient(to right,#fff202, #ff01ed);
 }
