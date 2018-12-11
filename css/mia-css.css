@@ -45,7 +45,7 @@ a {
 }
 
 .dropdown:hover .dropbtn {
-	background-color: red;
+	background-color: rgb(155, 4, 4);
 }
 
 header {
@@ -56,10 +56,12 @@ header {
 }
 
 body {
-	background: Linear-gradient(to top, #793C06,  #C87002, #1F1603);
-	background-repeat:repeat-x;
+	
+	background-image: url(../mia-pages-and-img/8.jpg);
+	background-size: 100%;
+
 	display: block;
-	padding-bottom: 100%;
+	
 	font-family: 'Roboto Mono', monospace;
 	margin: 0;
 }
@@ -268,7 +270,7 @@ main {
 	background-color: pink;
 	position: absolute;
 	right: 20px;
-	top: 1500px;
+	top: 3000px;
 	padding-top: 5px;
 }
 
@@ -295,7 +297,7 @@ main {
 	height: 200px;
 	display: block;
 	position: relative;
-	margin: 50px;
+	margin: 70px;
 }
 
 .tile-person .square-back {
@@ -342,6 +344,7 @@ main {
 #my-navi {
 	display: flex;
 	padding: 14px;
+	margin-bottom: 50px;
 }
 
 .my-navi-element {
@@ -349,6 +352,148 @@ main {
 }
 
 .my-navi-element a:hover {
-	background-color: black;
+	background-color: rgb(110, 3, 3);
 	border-bottom: groove;
 }
+
+.quote-pic {
+	width: 200px;
+	height: 200px;
+	margin-left: 70px;
+}
+
+.hello-gif {
+	width: 200px;
+	height: 200px;
+	margin-left: 80px;
+}
+
+.friends-pic1-3 {
+	width: 350px;
+	height: 250px;
+}
+
+#friends-pic2 {
+	width: 180px;
+	height: 250px;
+}
+
+.bracelet-pic1-3 {
+	width: 350px;
+	height: 250px;
+}
+
+.bracelet-pic2-4 {
+	width: 180px;
+	height: 250px;
+}
+
+#cat-pic1 {
+	width: 350px;
+	height: 250px;
+}
+
+#cat-pic2-4 {
+	width: 180px;
+	height: 250px;
+}
+
+#cat-pic3 {
+	width: 250px;
+	height: 250px;
+}
+
+#plant-pic2 {
+	width: 190px;
+	height: 250px;
+}
+
+.plant-pic1-3 {
+	width: 350px;
+	height: 250px;
+}
+
+p {
+	color: white;
+}
+
+#fav-quote {
+	text-align: center;
+}
+
+#paint-pic1 {
+	width: 190px;
+	height: 250px;
+}
+
+#paint-pic2 {
+	width: 350px;
+	height: 250px;
+}
+
+.origami-pic {
+	width: 190px;
+	height: 250px;
+}
+
+.video3 {
+	margin-left: 280px;
+}
+
+
+
+
+
+
+
+
+.intro {
+	display: flex;
+}
+
+.hello2-gif {
+	width: 150px;
+	height: 150px;
+	margin-left: 40px;
+}
+
+.side-pic-ro {
+	width: 200px;
+	height: 200px;
+}
+
+.facts {
+	margin-left: 70px;
+}
+
+
+
+
+
+.romania-photos {
+	width: 600px;
+	height: 400px;
+	margin-left: 5px;
+	margin-right:5px;
+  }
+
+  .romania-photos2 {
+	width: 300px;
+	height: 400px;
+	margin-left: 5px;
+	margin-right:5px;
+  }
+
+  .romania-photos3 {
+	width: 590px;
+	height: 400px;
+	margin-left: 5px;	
+  }
+  
+  .romania-photos-titles {
+	text-align: center;
+  }
+
+  .wrap2photos {
+	  display: flex;
+  }

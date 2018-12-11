@@ -53,10 +53,9 @@ margin-right: 0px;
 }
 
 body {
-    background-image: url(https://cabrinha.co.za/wp-content/uploads/2015/02/Surfboard-Rental-Cape-Town.jpg);
+    background-image: url(https://media.giphy.com/media/5sLD6OgdZCBa0/source.gif);
     display: block;
     margin: 0;
-    padding-bottom: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -116,15 +115,17 @@ nav {
     text-align: center;
     background-color: #01FFC6;
     position: absolute;
-    right: 20px;
-    top: 1000px;
+    left: 20px;
+    top: 750px;
     padding-top: 5px;
 }
 .bacground{
     display: block;
     width: 1000px;
     height: 800px;
-    background-color: rgb(101, 250, 1);
+    
+    background-image: url(https://images.cdn3.stockunlimited.net/preview1300/galaxy-background-design_2001741.jpg);
+    background-repeat: no-repeat;
     position: absolute;
     top: 50px;
     left: 250px;
@@ -204,10 +205,12 @@ input{
     margin-top: 10px;
 }
 .accordion {
-    margin-top: 110px;
-    margin-left: 25px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 155px;
+    margin-bottom: 0;
     background-color: rgb(7, 231, 247);
-    color: #444;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 300px;
@@ -227,5 +230,26 @@ input{
     display: none;
     background-color: white;
     overflow: hidden;
-    width:200px;
+    width:264px;
+    margin-left: 155px;
+    margin-bottom: 0;
+    margin-top: 0;    
+}
+.thanks{
+    display: block;
+    width: 400px;
+    height: 200;
+    background-image: url(http://ingstadmedia.com/trfradio/wp-content/uploads/sites/3/2018/02/1.jpg);
+    position: absolute;
+    right: 270px;
+    z-index: 100;
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+}
+.thanks:hover {
+    background-image: Linear-gradient(to right,#fff202, #ff01ed);
+}
+.favm{
+    color: greenyellow;
 }
