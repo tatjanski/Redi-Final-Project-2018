@@ -53,10 +53,10 @@ margin-right: 0px;
 }
 
 body {
-    background-image: url(https://media.giphy.com/media/5sLD6OgdZCBa0/source.gif);
+    background-image: url(https://media.giphy.com/media/1Agdw2w4UKtgs/giphy.gif);
     display: block;
     margin: 0;
-    background-repeat: no-repeat;
+    background-repeat: ;
     background-size: 100%;
 }
 .t {
@@ -124,8 +124,8 @@ nav {
     width: 1000px;
     height: 800px;
     
-    background-image: url(https://images.cdn3.stockunlimited.net/preview1300/galaxy-background-design_2001741.jpg);
-    background-repeat: no-repeat;
+    background-image: url(http://i.imgur.com/UFhyZRC.gif);
+    background-repeat:no-repeat ;
     position: absolute;
     top: 50px;
     left: 250px;
