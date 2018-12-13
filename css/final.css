@@ -117,6 +117,10 @@ span, a {
 
 }
 
+#close{
+
+	margin-left:200px;
+}
 .close {
 	display: block;
 	width: 130px;

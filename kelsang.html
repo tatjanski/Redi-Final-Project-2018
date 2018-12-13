@@ -1,3 +1,4 @@
+ <!DOCTYPE html>
  <html>
             <title >Kelsang</title>   
 	<head>
@@ -9,16 +10,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
 		<link href="./css/kelsang.css" rel="stylesheet">
-		<link href= "./css/kelsangheader.css" rel="stylesheet">
+	
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<div class="dropdown">
+			<div id="redilogo" class="dropdown">
 				<div class="dropbtn link-home">
 					<a href="https://www.redi-school.org/redimunich" target="blank">
 						ReDI SCHOOL
-					</a>
+					</a> 
 				</div>
 			</div>
 			<div class="dropdown">
@@ -35,16 +36,15 @@
 				<div class="dropdown">
 					<div class="dropbtn">STUDENTS</div>
 					<div class="dropdown-content">
-						<a href="#">NIKOLA</a>
+						<a href="./kelsang.html">NIKOLA</a>
 						<a href="#">TATIANA</a>
-						<a href="#">TIMOTHY</a>
+						<a href="./timothy.html">TIMOTHY</a>
 						<a href="./kelsang.html">KELSANG</a>
-						<a href="#">MIA</a>
-						<a href="#">ROSANA</a>
-						<a href="#">SALEM</a>
-						<a href="#">NABBOSA</a>
+						<a href="./mia.html">MIA</a>
+						<a href="./rosana.html">ROSANA</a>
+						<a href="./salem.html">SALEM</a>
 						<a href="#">AMMAR</a>
-						<a href="#">GABOR</a>
+						<a href="./gabor.html">GABOR</a>
 					</div>
 				</div>
 				<div class="dropdown">
@@ -67,11 +67,11 @@
 		</header>
 	
 		<main>
-				<div id="welcome">
-					<marquee direction="right" behavior="alternate"> Welcome to my page </marquee> 
-					</div>
 				
-			<div>	<a id="aa" href="/kelsang.html" class="tile-person">
+					<marquee direction="right" behavior="alternate" class="welcometext"> Welcome to my page </marquee> 
+					
+				
+			<div>	<a id="kpage" href="/kelsang.html" class="tile-person">
 					<span class="square-back"></span>
 					<span class="square-front"></span>
 					<img class="image-person" src="img/Kelsang_200x200.jpg" alt="">
@@ -80,14 +80,20 @@
 			</div>
 	           
             
-                <div class="welcome-button">
-                    <a href="about-contain"class="btn">About</a>
-                     <a href="#"class="btn">Blog</a>
-					 <a href="#"class="btn">Gallery </a>
-                    </div>
-                </div>
-        <div class="close-button">
-                <a href="/index.hrml"class="btncls">Close</a>
+        <div class="welcome-button">
+					<div id="about" >
+					 <a href="#about-contain" >About</a>
+					</div>
+					<div id="blog">
+					 <a href="#blog-contain" >Blog</a> </div>
+
+					 <div id="gallary">
+					 <a href="#gallary-contain">Gallery </a> </div>
+                   
+								</div>
+								
+        <div id="close" class="close-button">
+                <a href="index.html"class="btncls">Class Homepage</a>
             </div>
 
 		<div class="slider">
@@ -99,35 +105,90 @@
 			 
 		<div class="wrapper">
 			<div class="videowrapper">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/XIWAGa-7jzg?start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></div>
-					<h3> Video Song </h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/6QundNhJlEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+					<h3> Meaning of a succesful life by His Holiness the Dalai Lama </h3>
 				</div>
 	</div>
 	
-	<div id="about-contain" class="about">
-		<h3>About </h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quaerat? Nisi, sequi laboriosam sint quo illo inventore. Iusto, saepe ratione, voluptatum voluptatem, delectus pariatur consequuntur mollitia aspernatur voluptates nemo eum.</p>
+	<div id="about-contain" class="about1">
+		<a href="#redilogo" >About </a> 
+		<p> Hi this is my page. I would love to make it better as I learn more in coming days. Here I have put things that I like to read in general. </p>
+		<h3> Thank you ReDi, Eduardo,<br> Alma, Angelo,Tatjana and Saffir  </h3>
 	</div>
 
-	<div id="nlog-contain" class="blog">
-		<h3> Blogs I recommend</h3>
-	</div>
+	<div id="blog-contain" class="blog">
+		<div  class="blogtitle">	
+		<a href="#redilogo" >Blogs I read </a> </div>
+			<h3>Blogs that I enjoy reading and learn more about issues that are close to me.</h3>
+			
+			<div class="flip-box">
+			  <div class="flip-box-inner">
+				<div class="flip-box-front">
+				  <img src="https://www.jamyangnorbu.com/blog/wp-content/uploads/2018/09/Shadow_Tibet_200.jpg" alt="Shadow Tibet">
+				</div>
+				<div class="flip-box-back">
+				  <a href=" https://www.jamyangnorbu.com/blog/" target="blank"h2>Shadow Tibet</a></h2>
+				  <p>Shadow Tibet is online blog by Jamyang Norbu,a Tibetan political activist and writer currently living in the United States.Jamyang Norbu is the foremost writer in English on Tibetan history and politics.</p>
+				</div>
+			  </div>
+			</div>
+			
+	
 
-	<div id="gallary-contain" class="gallary">
-			<h3> Gallery</h3>
-		</div>
+			<div class="flip-box">
+					<div class="flip-box-inner">
+					  <div class="flip-box-front">
+						<img src="http://highpeakspureearth.com/wp-content/uploads/2012/03/dechenbannerhighres-e1332923706668.jpg" alt="HighPeaks Pure Earth" >
+					  </div>
+					  <div class="flip-box-back">
+						<a href=" https://highpeakspureearth.com/" target="blank"h2>High Peaks Pure Earth</a></h2>
+						<p>High Peaks Pure Earth provides insightful commentary on Tibet related news and issues and provides translations from writings in Tibetan and Chinese posted on blogs from Tibet and the People's Republic of China.</p>
+				  
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="flip-box">
+						<div class="flip-box-inner">
+						  <div class="flip-box-front">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQl6feWTZGD4d7W0dBa3NUKFXU48CTZtxvyH3KgzFpND3Kkxc" alt="wikiHow" >
+						  </div>
+						  <div class="flip-box-back">
+							<a href="  https://www.wikihow.com/Main-Page/" target="blank"h2>wikiHow</a></h2>
+							<p>wikiHow is an online wiki-style community consisting of an extensive database of how-to guides.You can find anwers on how to do or make something that will make your life comfortable.</p>
+					  
+						  </div>
+						</div>
+					  </div>
+			
+			
+			
+			<div class="footnote">
+			<p> <strong>Note:</strong> The photos are taken from respective site.</p></div>
+			
+			
+			</div>
+			
+
 
 
 	<div id="popup" class="note">
 			<button id="close" onclick="document.getElementById('popup').style.display='none'" >x</button>
-			<p>Have a nice day!</p>
+			<p>Hey beautiful people. Are you having fun?</p>
 		
 	</div>
 </div>
 
-
-
 </div>
+
+<div id="map" class="ReDimap">
+		<p >ReDi School IT Course  <br> <br> <br> ReDi Digital Program offers varities of IT course that can help you to fulfill a career in IT industry.<br> Do visit ReDi website to find latest information on course offered. </p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21301.962526778458!2d11.584839875219732!3d48.13443471355916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf9bc877bea1%3A0x42c8289b44716f20!2sSocial+Impact+Lab+M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1544205346461" width="362" height="270" frameborder="0" style="border:0" allowfullscreen></iframe>						
+		
+	
+		
+			</div>
+
 
 		<div class="love">made with all our ♥︎</div>
 </body>
